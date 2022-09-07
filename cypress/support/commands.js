@@ -72,12 +72,18 @@ Cypress.Commands.add("criarPerfil", () => {
 
         cy.contains('Conhecimentos é obrigatório')
 
-        
-    
     })
 
-
-
+    Cypress.Commands.add("verificarFormacaoAdicionada", () => { 
+   
+        cy.get('[data-test="education-school"]')
+        cy.get('[data-test="education-degree"]')
+        cy.get('[data-test="education-fieldOfStudy"]')
+        cy.get('#from')
+        cy.get('#to')
+        cy.get('[data-test="education-description"]')
+        cy.get('[data-test="education-submit"]')
+        cy.get('[data-indeterminate="false"]')
+    })
 })
-
 

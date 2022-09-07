@@ -23,20 +23,17 @@ describe('US001 - Funcionalidade: Cadastro de Perfil', () => {
 
     })
 })
+
 describe('US002 - Funcionalidade: Verificar campos obrigatórios', () => {
 
     it.only('Verificar campos obrigatórios', () => {
        
-            cy.get('[data-test="dashboard-welcome"]').should('contain', 'Bem-vindo','SuperUser')
+        cy.get('[data-test="dashboard-welcome"]').should('contain', 'Bem-vindo','SuperUser')
     
-            cy.get('.large').should('contain', 'Dashboard', 'SuperUser')
+        cy.get('.large').should('contain', 'Dashboard', 'SuperUser')
     
-            cy.verificarObrigatoriedades()
+        cy.verificarObrigatoriedades()
     
-        })
-
-    
-
+    })
 })
-
 

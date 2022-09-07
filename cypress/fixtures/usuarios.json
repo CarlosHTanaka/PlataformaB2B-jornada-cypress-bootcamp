@@ -1,0 +1,17 @@
+[
+    {
+        "email" : "teste2@teste.com.br",
+        "senha": "1234567"
+    },
+
+    {
+        "email" : "userdemo@teste.com",
+        "senha": "1234567"
+    },
+    {
+        "email" : "fabio@boot.com",
+        "senha": "teste@123",
+        "perfil": "admin"
+    }
+
+]
